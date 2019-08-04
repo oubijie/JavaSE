@@ -17,5 +17,6 @@
     <module>JavaSE09Static</module>
     <module>JavaSE10Extends</module>
     <module>JavaSE11Interface</module>
+    <module>JavaSE12Object</module>
   </modules>
 </project>
