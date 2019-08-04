@@ -14,5 +14,6 @@
     <module>JavaSE06Sort</module>
     <module>JavaSE07Method</module>
     <module>JavaSE08Class</module>
+    <module>JavaSE09Static</module>
   </modules>
 </project>
