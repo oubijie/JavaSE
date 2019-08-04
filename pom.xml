@@ -27,5 +27,6 @@
     <module>JavaSE19Collection</module>
     <module>JavaSE20IO</module>
     <module>JavaSE21Thread</module>
+    <module>JavaSE22Timer</module>
   </modules>
 </project>
