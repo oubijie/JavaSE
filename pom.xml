@@ -22,5 +22,6 @@
     <module>JavaSE14Regex</module>
     <module>JavaSE15Wrap</module>
     <module>JavaSE16InnerClass</module>
+    <module>JavaSE17Exception</module>
   </modules>
 </project>
