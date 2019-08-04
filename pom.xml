@@ -29,5 +29,6 @@
     <module>JavaSE21Thread</module>
     <module>JavaSE22Timer</module>
     <module>JavaSE23Socket</module>
+    <module>JavaSE24Reflection</module>
   </modules>
 </project>
