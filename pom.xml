@@ -19,5 +19,6 @@
     <module>JavaSE11Interface</module>
     <module>JavaSE12Object</module>
     <module>JavaSE13String</module>
+    <module>JavaSE14Regex</module>
   </modules>
 </project>
