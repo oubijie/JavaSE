@@ -9,5 +9,6 @@
   	<module>JavaSE01Variable</module>
     <module>JavaSE02DataType</module>
     <module>JavaSE03OP</module>
+    <module>JavaSE04Control</module>
   </modules>
 </project>
