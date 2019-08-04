@@ -21,5 +21,6 @@
     <module>JavaSE13String</module>
     <module>JavaSE14Regex</module>
     <module>JavaSE15Wrap</module>
+    <module>JavaSE16InnerClass</module>
   </modules>
 </project>
