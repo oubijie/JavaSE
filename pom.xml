@@ -23,5 +23,6 @@
     <module>JavaSE15Wrap</module>
     <module>JavaSE16InnerClass</module>
     <module>JavaSE17Exception</module>
+    <module>JavaSE18Date</module>
   </modules>
 </project>
