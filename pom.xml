@@ -18,5 +18,6 @@
     <module>JavaSE10Extends</module>
     <module>JavaSE11Interface</module>
     <module>JavaSE12Object</module>
+    <module>JavaSE13String</module>
   </modules>
 </project>
