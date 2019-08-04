@@ -15,5 +15,6 @@
     <module>JavaSE07Method</module>
     <module>JavaSE08Class</module>
     <module>JavaSE09Static</module>
+    <module>JavaSE10Extends</module>
   </modules>
 </project>
