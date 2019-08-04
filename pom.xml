@@ -10,5 +10,6 @@
     <module>JavaSE02DataType</module>
     <module>JavaSE03OP</module>
     <module>JavaSE04Control</module>
+    <module>JavaSE05Array</module>
   </modules>
 </project>
