@@ -24,5 +24,6 @@
     <module>JavaSE16InnerClass</module>
     <module>JavaSE17Exception</module>
     <module>JavaSE18Date</module>
+    <module>JavaSE19Collection</module>
   </modules>
 </project>
