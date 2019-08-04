@@ -25,5 +25,6 @@
     <module>JavaSE17Exception</module>
     <module>JavaSE18Date</module>
     <module>JavaSE19Collection</module>
+    <module>JavaSE20IO</module>
   </modules>
 </project>
