@@ -1,4 +1,4 @@
-package com.entor.stream;
+package com.veryoo.stream;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.entor.rw;
+package com.veryoo.rw;
 
 import java.io.FileWriter;
 

@@ -1,4 +1,4 @@
-package com.entor.file;
+package com.veryoo.file;
 
 import java.io.File;
 import java.io.IOException;

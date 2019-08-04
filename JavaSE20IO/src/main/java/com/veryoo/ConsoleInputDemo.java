@@ -1,4 +1,4 @@
-package com.entor;
+package com.veryoo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
