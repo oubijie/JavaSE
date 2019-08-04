@@ -11,5 +11,6 @@
     <module>JavaSE03OP</module>
     <module>JavaSE04Control</module>
     <module>JavaSE05Array</module>
+    <module>JavaSE06Sort</module>
   </modules>
 </project>
