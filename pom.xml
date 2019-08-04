@@ -28,5 +28,6 @@
     <module>JavaSE20IO</module>
     <module>JavaSE21Thread</module>
     <module>JavaSE22Timer</module>
+    <module>JavaSE23Socket</module>
   </modules>
 </project>
