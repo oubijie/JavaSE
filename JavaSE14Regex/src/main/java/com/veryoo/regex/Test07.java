@@ -1,4 +1,4 @@
-package com.entor.regex;
+package com.veryoo.regex;
 
 public class Test07 {
 

@@ -1,4 +1,4 @@
-package com.entor.regex;
+package com.veryoo.regex;
 /**
  * 7、输入一个字符串，如："abc d e f g ahijsaskdlamn "
   A.统计a的个数；

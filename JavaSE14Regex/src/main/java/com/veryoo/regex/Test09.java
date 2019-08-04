@@ -1,4 +1,4 @@
-package com.entor.regex;
+package com.veryoo.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

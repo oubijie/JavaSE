@@ -1,4 +1,4 @@
-package com.entor.regex;
+package com.veryoo.regex;
 /**
  * 5、正则表达式练习:
  A、QQ邮箱,以com或cn结尾  
