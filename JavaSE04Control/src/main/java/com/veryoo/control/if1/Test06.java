@@ -1,5 +1,7 @@
 package com.veryoo.control.if1;
 
+import java.util.Scanner;
+
 /**
  * 让用户输入一个1-7的整数，打印出对应是星期几，如果输入不是1-7的数，提示错误
  * @author obj

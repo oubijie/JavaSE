@@ -1,5 +1,6 @@
 package com.veryoo.op;
 
+import java.util.Scanner;
 
 /**
  * 让用户输入一个三位数的整数，将整数每位的数字拆开再求和

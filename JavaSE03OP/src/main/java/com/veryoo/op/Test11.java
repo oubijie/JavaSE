@@ -1,5 +1,6 @@
 package com.veryoo.op;
 
+import java.util.Scanner;
 
 /**
  * 华氏温度和摄氏温度的转换

@@ -1,5 +1,6 @@
 package com.veryoo.op;
 
+import java.util.Scanner;
 
 /**
  * 让用户输入一个整数代表多少秒，将秒的时间转换成 “xx小时xx分钟xx秒”

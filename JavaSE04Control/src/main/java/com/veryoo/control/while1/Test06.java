@@ -1,4 +1,4 @@
-package com.veryoo.control.hw;
+package com.veryoo.control.while1;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @vserion 2017年12月8日
  *
  */
-public class Test02 {
+public class Test06 {
 
 	public static void main(String[] args) {
 		System.out.println("输入两个正整数：");
