@@ -1,8 +1,9 @@
 package com.veryoo.array;
 
+import java.util.Arrays;
+
 /**
- * 练习四
- * 合并数组
+ * 请给数组[1, 2, 3, 4, 5, 6]增加一个元素7，打印结果 [1, 2, 3, 4, 5, 6, 7]
  * @author obj
  * @email oubijie@139.com
  * @vserion 2017年12月8日
@@ -11,23 +12,27 @@ package com.veryoo.array;
 public class Test08 {
 
 	public static void main(String[] args) {
-		int[] a = {1,7,9,10,13,15,17,19};
-		int[] b = {2,4,6,8,10};
-		
-		int[] c = new int[a.length + b.length];
-
-		for(int i=0; i<a.length; i++){
-			c[i] = a[i];
-		}
-		
-		for(int i=0; i<b.length; i++){
-			c[a.length+i] = b[i];
-		}
-		
-		for(int i=0; i<c.length; i++){
-			System.out.println(c[i]);
-		}
-		
-		
- 	}
+		   int[] arr = {1,2,3,4,5,6};
+		   System.out.println(Arrays.toString(arr));
+		   
+		   //由于数组一旦创建后就不能改变长度，
+		   //需要增加元素的话就要重新创建一个新的数组
+		   //并把原数组的内容复制到新数组
+		   //创建一个新的数组，长度要增加
+		   int[] newarr = new int[arr.length + 1];
+		   //把原数组的内容复制到新的数组
+		   for(int i=0; i<arr.length; i++) {
+			   newarr[i] = arr[i];
+		   }
+		   //把新增的元素插入到最后一个位置
+		   newarr[newarr.length-1] = 7;
+		   arr = newarr;
+		   System.out.println(Arrays.toString(arr));
+		   
+		   
+		   //方式二
+		   int[] b = Arrays.copyOf(arr, arr.length+1);
+		   b[b.length-1] = 7;
+		   
+	}
 }

@@ -10,22 +10,37 @@ package com.veryoo.array;
  */
 public class Test02 {
 	public static void main(String[] args) {
-		int[] a = {1,3,9,5,3,7,2};
+		//声明和初始化
+		int[] a;
+		a = new int[5];
 		
+		int b[];
+		b = new int[5];
+		
+		//静态赋值初始化
+		int[] c = {80,90,100};
+		
+		//取数组的元素，下标从0开始，超出边界会抛出异常
+		System.out.println(c[0]);
+		System.out.println(c[1]);
+		System.out.println(c[2]);
+//		System.out.println(c[-1]);  //下标不能为负数
+//		System.out.println(c[3]);  //下标越界
 		System.out.println(a[0]);
 		
-		System.out.println(a.length);   //数组的长度
+		System.out.println("==============");
+		//给数组的元素赋值
+		c[0] = 100;
+		System.out.println(c[0]);
 		
-		//最大下标 length-1
-		//最小下标 0
-
-		for(int i=0; i<a.length; i++){
-			System.out.print(a[i] + " ");
-		}
+		System.out.println("==============");
+		//数组的长度
+		System.out.println(c.length);
+		System.out.println(a.length);
+		System.out.println(b.length);
 		
-		
-		for(int i=0; i<args.length; i++){
-			System.out.print(args[i] + " ");
-		}
+		System.out.println("==============");
+		int[] d = new int[100];
+		System.out.println(d[d.length-1]);  //数组的最大下标
 	}
 }
