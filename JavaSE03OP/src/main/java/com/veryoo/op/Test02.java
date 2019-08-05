@@ -28,7 +28,13 @@ public class Test02 {
 		int b2 = a2++;
 		System.out.println("a2=" + a2 + ", b2=" + b2);
 		
+		int i = 1;
+		int j = i++ + ++i;
+		System.out.println(j);   //4
+		System.out.println(i);  //3
 		
+		int k = --i + i--;
+		System.out.println(k);  //4
 		
 	}
 }
