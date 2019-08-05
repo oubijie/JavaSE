@@ -1,39 +1,38 @@
 package com.veryoo.method;
 
+import java.util.Scanner;
 
 /**
- * 成员变量与局部变量
- * @author obj
- * @email oubijie@139.com
- * @vserion 2017年12月8日
+ * 方法的定义
+ * @author Administrator
  *
  */
 public class Test03 {
 
-	public String color;
-	public double heigh;
-	public int age;        //成员变量默认值，参考数组
+	//方法要定义在class内部
+	//public static 修饰符
+	//void的位置表示返回值，void没有返回
+	//printNum方法名，注意方法名的命名规范，建议使用 动词+名词
+	//()
+	//()内可以有形参
 	
-	
-	public void printAge(){
-		int age = 2;
-		System.out.println(age);
+	public static void printNum() {
+		System.out.print("1234567890");
+		System.out.print(";");
 	}
 	
+	public static void sayHello() {
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine();
+		System.out.println("你好，" + name);
+	}
 	
 	public static void main(String[] args) {
-		Test03 t = new Test03();
-		t.printAge();
-//		System.out.println(t.color);
-//		System.out.println(t.heigh);
-//		System.out.println(t.age);
-	}
-	
-	public void testint(){
-		int i; //声明
-		i = 0; //赋值
+		//调用方法，使用 方法名() 的方式调用方法
+		printNum();
 		
-		int j = 1;
-		System.out.println(i); //使用
+		sayHello();
 	}
 }
+
+//1234567890;
