@@ -3,7 +3,7 @@ package com.veryoo.file;
 import java.io.File;
 
 /**
- * 
+ * 递归列出所有目录和文件
  * @author Administrator
  *
  */
